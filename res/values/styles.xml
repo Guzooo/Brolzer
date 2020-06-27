@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppTheme" parent="@style/Theme.Leanback" />
+    <style name="AppTheme" parent="@style/Theme.Leanback">
+        <item name="colorPrimaryG">@color/light</item>
+        <item name="colorPrimaryDarkG">@color/lightDark</item>
+        <item name="colorPrimaryTranslucentG">@color/lightTranslucent</item>
+        <item name="colorSecondaryG">@color/dark</item>
+        <item name="colorSecondaryDarkG">@color/darkDark</item>
+        <item name="colorAccentG">@color/accent</item>
+
+        <item name="colorPrimary">?attr/colorAccentG</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+    </style>
 </resources>
